@@ -78,3 +78,9 @@ while True:
         print(f"Movimentações realizadas: \n{extrato}")
         print(f"\nSaldo: R$ {saldo:.2f}")
         print("\n===========================")
+
+    elif opcao == "3":
+        break
+
+    else:
+        print("Opção inválida! Tente uma das opção abaixo: ")

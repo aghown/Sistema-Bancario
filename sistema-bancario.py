@@ -21,7 +21,7 @@ while True:
 # Armazenar os depositos em uma variavel e exibilos na operação de extrato
 
     if opcao == "0":
-        print("VocÊ selecionou a opção [0] = DEPOSITAR")
+        print("Você selecionou a opção [0] = DEPOSITAR")
         
         valor = float(input("Informe o valor do deposito: "))
 
@@ -66,3 +66,15 @@ while True:
         else:
             print("Operação não pode ser concluída! Valor informado inválido.")
 
+
+# armazena todos os depositos e saues realizados
+# exibir o saldo atual ao fim da listagem
+# formatação R$ xxx.xx
+
+    elif opcao == "2":
+        print("Você selecionou a opção [2] =  EXTRATO")
+
+        print("\n==========EXTRATO==========")
+        print(f"Movimentações realizadas: \n{extrato}")
+        print(f"\nSaldo: R$ {saldo:.2f}")
+        print("\n===========================")
